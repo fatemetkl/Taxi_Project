@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Driver logIn</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='DriverLogin/bootstrap/css/bootstrap.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='DriverLogin/css/log-in.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='DriverLogin/css/Profile-Edit-Form-1.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='DriverLogin/css/Profile-Edit-Form.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='DriverLogin/css/styles.css') }}" >
+</head>
+
+<body class="text-center" style="width: 100%;height: 100%;height: 100%;font-size: 18px;background-repeat: no-repeat;background-image: url({{ url_for('static', filename='DriverLogin/img/alex-jumper-JgEtmgOjoew-unsplash.jpg') }});background-size: 100% 130%;filter: blur(0px);padding-bottom: 36px;">
+    <section class="d-xl-flex justify-content-xl-center align-items-xl-center" style="height: 100%;color: rgb(217,224,231);margin-top: 36px;filter: hue-rotate(0deg);">
+        <div class="container">
+            <!-- Start: log in -->
+            <div class="text-center d-xl-flex align-items-center justify-content-xl-center align-items-xl-start form-container" style="width: 612px;height: 408px;margin-right: 0vh;margin-left: 26%;">
+                <form method="post" style="width: 794px;height: 457px;margin-right: 20%;margin-left: 8px;padding: 65px;background-color: rgba(83,85,85,0.58);">
+                    <h2 class="text-center"><strong>Log in&nbsp;</strong>to your Passanger account.</h2>
+                    <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+                    <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+                    <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background-color: rgb(230,121,75);">Log In</button></div><a href="#" class="already">do not have an account? Sign up here.</a></form>
+            </div>
+            <!-- End: log in -->
+        </div>
+    </section>
+    <script src="{{ url_for('static', filename='DriverLogin/js/jquery.min.js') }}" ></script>
+    <script src="{{ url_for('static', filename='DriverLogin/bootstrap/js/bootstrap.min.js') }}" ></script>
+    <script src="{{ url_for('static', filename='DriverLogin/js/Profile-Edit-Form.js') }}" ></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html style="margin: -53px;padding: -8px;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Log in</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='PassLogIn/bootstrap/css/bootstrap.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='PassLogIn/css/Registration-Form-with-Photo.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='PassLogIn/css/styles.css') }}" >
+</head>
+
+<body style="background-image: url(&quot;andyone--WW8jBak7bo-unsplash.jpg&quot;);width: 100%;height: 100%;">
+    <!-- Start: Registration Form with Photo -->
+    <div class="text-left register-photo" style="background-color: rgb(227,213,203);background-image: url({{ url_for('static', filename='PassLogIn/img/30.png') }}) ;width: 105%;opacity: 1;height: 130%;margin: 0px;padding-top: 127px;filter: sepia(0%);padding-bottom: 67px;">
+        <div class="text-center align-items-center form-container" style="width: 612px;height: 408px;margin-right: 156px;margin-left: 382px;">
+            <form method="post" style="width: 794px;height: 457px;margin-right: 13px;margin-left: 152px;padding: 65px;">
+                <h2 class="text-center"><strong>Log in&nbsp;</strong>to your Passanger account.</h2>
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background-color: rgb(230,121,75);">Log In</button></div><a href="#" class="already">do not have an account? Sign up here.</a></form>
+        </div>
+        <!-- End: Form Container -->
+    </div>
+    <!-- End: Registration Form with Photo -->
+    <script src="{{ url_for('static', filename='PassLogIn/js/jquery.min.js') }}" ></script>
+    <script src="{{ url_for('static', filename='PassLogIn/bootstrap/js/bootstrap.min.js') }}" ></script>
+</body>
+
+</html>

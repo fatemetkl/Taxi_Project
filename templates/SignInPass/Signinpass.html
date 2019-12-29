@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html style="margin: -53px;padding: -8px;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Signin_pass/assets/bootstrap/css/bootstrap.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='Signin_pass/assets/css/Registration-Form-with-Photo.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='Signin_pass/assets/css/styles.css') }}">
+
+</head>
+
+<body style="background-image: url(&quot;andyone--WW8jBak7bo-unsplash.jpg&quot;);width: 100%;height: 100%;">
+    <!-- Start: Registration Form with Photo -->
+    <div class="text-left register-photo" style="background-color: rgb(227,213,203);background-image: url({{ url_for('static', filename='Signin_pass/assets/img/30.png') }});width: 100%;opacity: 1;height: 100%;margin: 0px;padding-top: 133px;filter: sepia(0%);">
+        <!-- Start: Form Container -->
+        <div class="form-container" style="width: 687px;">
+            <form method="post" style="width: 849px;height: 551px;padding: 87px;">
+                <h2 class="text-center"><strong>Create</strong>&nbsp;a Passanger account.</h2>
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"><input class="form-control" type="email" name="Name" placeholder="Name" style="margin: 0px;margin-top: 15px;"><input class="form-control" type="email" name="Surame"
+                        placeholder="Surname" style="margin: 0px;margin-top: 15px;"><input class="form-control" type="email" name="Phone" placeholder="Phone" style="margin: 0px;margin-top: 15px;"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+                <div class="form-group">
+                    <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">I agree to the license terms.</label></div>
+                </div>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background-color: rgb(230,121,75);">Sign Up</button></div><a href="#" class="already">You already have an account? Login here.</a></form>
+        </div>
+        <!-- End: Form Container -->
+    </div>
+    <!-- End: Registration Form with Photo -->
+    <script src="{{ url_for('static', filename='Signin_pass/assets/js/jquery.min.js') }}"> </script>
+    <script src="{{ url_for('static', filename='Signin_pass/assets/bootstrap/js/bootstrap.min.js') }}"> </script>
+</body>
+
+</html>
